@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WattPrice</string>
+    <string name="hva_koster_strommen_base_url">https://www.hvakosterstrommen.no/api/v1/prices/</string>
+    <string-array name="colors_from_gree_to_red">
+        <item>#34ff13</item>
+        <item>#79ed00</item>
+        <item>#91b859</item>
+        <item>#b9c700</item>
+        <item>#f6a434</item>
+        <item>#f76d47</item>
+        <item>#e53935</item>
+    </string-array>
+    <string-array name="price_districts">
+        <item>NO1</item>
+        <item>NO2</item>
+        <item>NO3</item>
+        <item>NO4</item>
+        <item>NO5</item>
+    </string-array>
+    <string-array name="price_districts_description">
+        <item>Oslo</item>
+        <item>Kristiansand</item>
+        <item>Trondheim</item>
+        <item>Tromsø</item>
+        <item>Bergen</item>
+    </string-array>
+</resources>

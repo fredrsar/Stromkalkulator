@@ -1,0 +1,131 @@
+{
+  "name": "prisendring_text",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "ubRQUMtCic8UToI4vco2ux",
+    "node": "6:8",
+    "version": "3365992125",
+    "component-id": "17ddb1e083fa51c61600658e633555ec480c3a82"
+  },
+  "default": "PrisendringText",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "1.52 NOK"
+      },
+      {
+        "type": "text",
+        "id": "Spotpris"
+      }
+    ],
+    "modes": {
+      "PrisendringText": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "1.52 NOK",
+              "Spotpris"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "1.52 NOK",
+            "margin": {
+              "left": "4.0",
+              "top": "43.0",
+              "right": "224.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "255.0",
+              "saturation": "0.12903225806451613",
+              "value": "0.12156862745098039"
+            },
+            "text-content": "$NOK_text",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.1740000247955322",
+            "typeface": "Raleway"
+          },
+          {
+            "id": "Spotpris",
+            "margin": {
+              "left": "4.0",
+              "top": "16.0",
+              "right": "239.0",
+              "bottom": "38.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "219.4736842105263",
+              "saturation": "0.2146892655367232",
+              "value": "0.6941176470588235"
+            },
+            "text-content": "Spotpris",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.1740000247955322",
+            "typeface": "Raleway"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "NOK_text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "PrisendringText",
+      "size": {
+        "width": 330.0,
+        "height": 75.0
+      },
+      "parameters": {
+        "NOK_text": "1.52 NOK"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

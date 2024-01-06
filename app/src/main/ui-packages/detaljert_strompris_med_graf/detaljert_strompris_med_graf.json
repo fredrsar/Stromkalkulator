@@ -1,0 +1,234 @@
+{
+  "name": "detaljert_strompris_med_graf",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "ubRQUMtCic8UToI4vco2ux",
+    "node": "0:3",
+    "version": "3365992125",
+    "component-id": "ae89f0cf1031afa51cdb81597e169ce1a49255e7"
+  },
+  "default": "DetaljertStromprisMedGraf",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "graf"
+      },
+      {
+        "type": "text",
+        "id": "beskrivelse_DeSisteXDagene"
+      },
+      {
+        "type": "text",
+        "id": "prisendringProsent"
+      },
+      {
+        "type": "group",
+        "id": "icon"
+      },
+      {
+        "type": "text",
+        "id": "Prisendring"
+      }
+    ],
+    "modes": {
+      "DetaljertStromprisMedGraf": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "graf",
+              "beskrivelse_DeSisteXDagene",
+              "prisendringProsent",
+              "icon",
+              "Prisendring"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "graf",
+            "margin": {
+              "top": "56.46205139160156"
+            },
+            "is-structured": "false",
+            "children": "$graf"
+          },
+          {
+            "id": "beskrivelse_DeSisteXDagene",
+            "margin": {
+              "left": "67.0",
+              "top": "32.89219665527344",
+              "right": "94.0",
+              "bottom": "280.2081756591797"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$beskrivelse_DeSisteXDagene",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.1740000588553292",
+            "typeface": "Raleway"
+          },
+          {
+            "id": "prisendringProsent",
+            "margin": {
+              "top": "32.89219665527344",
+              "right": "284.0",
+              "bottom": "272.86988830566406"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$prisendringProsent",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.1740000588553292",
+            "typeface": "Raleway"
+          },
+          {
+            "id": "icon",
+            "margin": {
+              "left": "41.0",
+              "top": "28.0",
+              "right": "266.0",
+              "bottom": "272.86988830566406"
+            },
+            "is-structured": "false",
+            "children": "$icon_arrow"
+          },
+          {
+            "id": "Prisendring",
+            "margin": {
+              "top": "4.0",
+              "right": "243.0",
+              "bottom": "303.28382873535156"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "219.4736842105263",
+              "saturation": "0.2146892655367232",
+              "value": "0.6941176470588235"
+            },
+            "text-content": "Prisendring",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.1740000247955322",
+            "typeface": "Raleway"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "graf": {
+      "data-type": "list-item",
+      "required": false,
+      "description": ""
+    },
+    "beskrivelse_DeSisteXDagene": {
+      "data-type": "text",
+      "required": false,
+      "description": "Format: \"de siste syv dagene\""
+    },
+    "prisendringProsent": {
+      "data-type": "text",
+      "required": false,
+      "description": "Format: \"+2.21%\""
+    },
+    "icon_arrow": {
+      "data-type": "list-item",
+      "required": false,
+      "description": "Pil opp eller ned "
+    }
+  },
+  "previews": [
+    {
+      "design": "DetaljertStromprisMedGraf",
+      "size": {
+        "width": 330.0,
+        "height": 329.0
+      },
+      "parameters": {
+        "graf": [],
+        "beskrivelse_DeSisteXDagene": "de siste seks månedene",
+        "prisendringProsent": "+2.21%",
+        "icon_arrow": [
+          {
+            "type": "vector",
+            "margin": {
+              "left": "3.2857131958007812",
+              "top": "6.6976470947265625",
+              "right": "3.2857131958007812",
+              "bottom": "6.6976470947265625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "icon_arrow_up_down.svg"
+          }
+        ]
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
